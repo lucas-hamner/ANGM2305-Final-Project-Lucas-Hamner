@@ -1,12 +1,6 @@
-#Style FX
+# STYLE FX PROJECT
 
-#imports (pillow, sys, etc.)
-
-#image i/o
-
-#import filter/filters list for filter apply functions (sepia, grayscale, brighten, etc.)
-
-#gui formatting of window.
-
-#main()
-
+# IMPORTS
+from PIL import Image, ImageOps, ImageFilter, ImageEnhance, ImageTk
+import tkinter as tk
+from tkinter import filedialog, messagebox, ttk
