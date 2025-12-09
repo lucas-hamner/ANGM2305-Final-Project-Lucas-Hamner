@@ -93,8 +93,6 @@ class StyleFXApp:
     def __init__(self, root):
         self.root = root
         root.title("Style FX")
-        self.img_orig: Optional[Image.Image] = None
-        self.img_preview: Optional[Image.Image] = None
         self.preview_tk = None
         self.preview_w, self.preview_h = 640, 480
         blank = Image.new("RGB", (self.preview_w, self.preview_h), (34, 34, 34))
